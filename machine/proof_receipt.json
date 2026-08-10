@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/intel-npu-placement-passport",
+  "source_sha": "132dafa2a8b622e72d2fe96035888eeeaf9d1577a39fca510c01096c3bd9524a",
+  "proof_id": "elite-intel-npu-placement-passport-1786356664",
+  "environment": {
+    "python": "/Users/kcbflux/.local/bin/python3.11",
+    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/intel-npu-placement-passport:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/intel-npu-placement-passport/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T10:11Z",
+  "artifact_hashes": {
+    "operability_receipt": "2e8fb4d7567413cece0316e50af1f952a56beca090c45e30e9d1a08ef1bbb8f5"
+  }
+}

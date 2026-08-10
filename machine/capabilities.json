@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/intel-npu-placement-passport",
+  "capabilities": [
+    {
+      "id": "npu-placement-passport",
+      "name": "NPU Placement Passport",
+      "status": "SCAFFOLD",
+      "module": "src/npu_placement_passport.py"
+    }
+  ]
+}
