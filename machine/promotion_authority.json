@@ -1,11 +1,14 @@
 {
-  "schema": "glaciereq.promotion-authority-grant.v1",
+  "schema": "glaciereq.promotion-proof-compatibility.v2",
+  "status": "EVIDENCE_BOUND_NON_AUTHORITATIVE",
   "repository": "GlacierEQ/intel-npu-placement-passport",
   "source_sha": "132dafa2a8b622e72d2fe96035888eeeaf9d1577a39fca510c01096c3bd9524a",
   "proof_receipt_digest": "c8a5366ef1c514106050f65bcea4a7969b17df056664aeba07a1783eeaa6f714",
-  "not_after": 1788948664.71689,
-  "mac": "d8f1277f9902fc93986342611e807f548872acd0568edd581166aabf0c713e7e",
-  "issuer": "local_operator_promotion_authority",
-  "verified": true,
-  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+  "project_direction_authority": false,
+  "repository_lifecycle_authority": false,
+  "cross_repository_authority": false,
+  "merge_or_release_authority": false,
+  "technical_meaning": "Exact-source proof-binding compatibility metadata only. This record cannot authorize project direction, promotion, merge, release, retirement, repository disposition, or cross-repository action.",
+  "legacy_source_blob_sha": "310309e87a485915ca15d302af4c98ecc72cc73a",
+  "legacy_grant_preserved_in_git_history": true
 }
